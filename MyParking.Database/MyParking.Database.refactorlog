@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="d4e29c91-8a4c-4c9d-bd54-33d860a953f8" ChangeDateTime="11/03/2020 08:25:19">
+    <Property Name="ElementName" Value="[dbo].[UsedCars_Dictionary].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsedCars_Dictionary]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DicID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="414d8cc1-f22f-4a83-be10-b327307cfb79" ChangeDateTime="11/03/2020 08:28:55">
+    <Property Name="ElementName" Value="[dbo].[UsedCars_Vehicle].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsedCars_Vehicle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VehicleID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="28db6f98-5f54-4974-8cc1-4362b43a302d" ChangeDateTime="11/03/2020 08:37:18">
+    <Property Name="ElementName" Value="[dbo].[UsedCars_Vechicle_Setting].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsedCars_Vechicle_Setting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VechicleSettingID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95c9f494-3486-4342-81f9-2ab7eca289c7" ChangeDateTime="11/03/2020 08:41:42">
+    <Property Name="ElementName" Value="[dbo].[UsedCars_Vechicle_Setting_Details].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsedCars_Vechicle_Setting_Details]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VechicleSettingID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="50163ce0-19c3-4876-a54b-501f323d3930" ChangeDateTime="11/03/2020 08:57:35">
+    <Property Name="ElementName" Value="[dbo].[UsedCars_Vechicle_Pictures].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsedCars_Vechicle_Pictures]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="VechicleSettingID" />
+  </Operation>
+</Operations>

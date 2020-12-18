@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Asp.Net 程序员机试题</h2>
+    <p class="lead">下面是面向Asp.Net 程序员的机试题，请按照题目要求按时完成。</p>    
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>机试题</h3>
+        <p>
+            本题要求运用Asp.Net MVC + JQuery 技术实现一个汽车商城所销售汽车的查询功能（请参考下图），功能要求如下：<br />
+            1.在文本框中输入车辆品牌或车辆类型或车辆型号或款式等查询条件，敲回车后从数据库查询符合条件的汽车信息并显示在表格中；其中厂商指导价请用货币和千分符格式输出，如：$271,200<br />
+            2.支持模糊查询，匹配规则是从第一个字符开始往后匹配；<br />
+            3.完成分页显示功能，每页默认显示10条数据；<br />
+            4.允许通过点击列头对查询结果进行排序；<br />
+            5.界面的样式不一定要以下图为准，由机试人员根据自己经验决定；<br />
+            <br />
+
+            技术要求如下：<br />
+            1.请使用Asp.Net MVC + Jquery技术实现；<br />
+            2.请在当前的架构中进行开发，代码应合理的在数据访问层，业务逻辑层和界面呈现层中实现；各层目前均有示例代码(UsedCarsDL.cs,UsedCarsBL.cs, UsedCarsController.cs)，请参考之;<br />
+            3.在MyParking.Database项目中，有答题所需的数据库备份文件“UsedCars.bak”，请在至少SqlServer 2012或以上版本中进行还原，不要修改数据库名称；<br />
+            4.请直接使用数据库中的视图“V_AllVechicles”作为访问数据源；并编写存储过程实现分页查询<br />            
+            5.请在MyParking.Test项目中的“Configs\appSetting.config”中修改连接字符串所需的DBUser和Password<br />
+            6.请遵循良好的代码规范；<br />
+            <br />
+        </p>          
+        <img style="width:95%" src="~/Test1.png" />        
+    </div>
+    <div class="col-md-6" style="visibility:hidden">
+        <h3>机试题二</h3>
+        <p>
+            本题是在第一题的基础上实现手机网页版的添加汽车和上传汽车图片的功能，具体功能请参考下图。<br />
+            1.在下拉列表中选择汽车品牌、汽车类型、汽车型号，输入汽车款式和价格；<br />
+            2.点击“添加图片”按钮上传图片，并以缩略图的方式显示在图片列表中，一行显示两张；<br />
+            3.当点击缩略图片时，完整图片弹出显示；<br />
+            4.点击保存按钮保存所有数据；点击取消按钮取消操作；并返回到汽车列表页面中<br />
+            技术要求如下：<br />
+            1.使用Vue + Vuetify 或其它你熟悉的前端开发框架实现前端的功能；<br />
+            2.使用Asp.Net Web API 实现后台逻辑；<br />
+            
+            3.界面样式不一定要以下图准，由机试人员根据自己经验决定；<br />
+            <br />            
+        </p>
+        <div>
+            <img style="width:60%;height:60%;" src="~/Test2.png" />
+
+        </div>        
+    </div>
+</div>
